@@ -6,8 +6,11 @@ Author: Zhen Wei
 Maintainer: Zhen Wei <956753902@qq.com>
 Description: This package provides ultra fast MeRIP-Seq analysis with the support of GC bias correction.
 License: MIT
+Imports: Rsamtools,GenomicAlignments,GenomicRanges,GenomicFeatures,DESeq2,ggplot2,mclust,BSgenome,Biostrings,GenomeInfoDb,BiocParallel,IRanges,S4Vectors,rtracklayer,methods,stats,utils,BiocGenerics,magrittr,speedglm,splines
+Depends: R (>= 3.5.0), SummarizedExperiment
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 7.2.3
-NeedsCompilation: no
-Packaged: 2021-09-07 09:42:02 UTC; zhen
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
