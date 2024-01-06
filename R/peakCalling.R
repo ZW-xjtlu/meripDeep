@@ -89,7 +89,7 @@ peakCalling <- function(bam_IP,
   if(plot_gc) plotGCbias(se)
 
   #Return granges
-  pvalue[is.na(pvalue)] <- 0
+  pvalue[is.na(pvalue)] <- 1
   gr_return <- rowRanges(se)
   mcols(gr_return)$IP_cov <- rowSums( assay(se)[,se$IP_input == "IP"] )
   mcols(gr_return)$input_cov <- rowSums( assay(se)[,se$IP_input == "input"] )

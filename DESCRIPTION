@@ -1,7 +1,7 @@
 Package: meripDeep
 Type: Package
 Title: A tiny exomePeak2 package used for bin level feature extraction.
-Version: 0.2.0
+Version: 0.3.0
 Author: Zhen Wei
 Maintainer: Zhen Wei <956753902@qq.com>
 Description: This package provides ultra fast MeRIP-Seq analysis with the support of GC bias correction.
